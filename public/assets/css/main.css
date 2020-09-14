@@ -2720,7 +2720,7 @@ ul.actions.fit.stacked {
 ul.icons {
   cursor: default;
   list-style: none;
-  padding-left: 150px;
+  padding-left: 25px;
 }
 
 ul.icons li {
@@ -3788,7 +3788,7 @@ body.is-preload #header.alt .logo {
   flex-wrap: wrap;
   padding: 5em 5em 3em 5em;
   width: calc(100% + 2em);
-  margin: 0 0 3em -2em;
+  margin: 0 0 3em 4em;
 }
 
 #footer > * {
@@ -3818,8 +3818,8 @@ body.is-preload #header.alt .logo {
   }
 
   #footer > * {
-    width: 100%;
-    margin-left: -45px;
+    width: 160%;
+    margin-left: 0;
     margin-bottom: 3em;
   }
 
