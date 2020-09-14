@@ -1,10 +1,10 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
-import Portpolio from "./components/Portpolio";
+import Portfolio from "./components/Portfolio";
 
 ReactDOM.render(
   <div>
-    <Portpolio />
+    <Portfolio />
   </div>,
   document.getElementById("root")
 );
