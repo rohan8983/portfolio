@@ -42,10 +42,9 @@ const Portpolio = () => {
                 <h2>Introduction</h2>
               </header>
               <p>
-                /* Sed lorem ipsum dolor sit amet nullam consequat feugiat
-                consequat magna adipiscing magna etiam amet veroeros. Lorem
-                ipsum dolor tempus sit cursus. Tempus nisl et nullam lorem ipsum
-                dolor sit amet aliquam. */
+                “I’m an innovative software engineer with 3+ years of experience
+                managing all aspects of the development process for small to
+                medium-sized companies.”
               </p>
             </div>
             <span className="image">
