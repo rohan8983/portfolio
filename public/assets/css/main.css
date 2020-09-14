@@ -2726,6 +2726,7 @@ ul.icons {
 ul.icons li {
   display: inline-block;
   padding: 0 0.65em 0 0;
+  margin: 0 40px 0 0;
 }
 
 ul.icons li:last-child {
@@ -3792,7 +3793,7 @@ body.is-preload #header.alt .logo {
 
 #footer > * {
   width: calc(50% - 2em);
-  margin-left: 30em;
+  margin-left: 12em;
 }
 
 #footer .copyright {
@@ -3818,7 +3819,7 @@ body.is-preload #header.alt .logo {
 
   #footer > * {
     width: 100%;
-    margin-left: 0;
+    margin-left: -45px;
     margin-bottom: 3em;
   }
 

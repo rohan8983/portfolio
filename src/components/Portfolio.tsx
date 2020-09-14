@@ -6,7 +6,7 @@ const Portfolio = () => {
       {/* <!-- Header --> */}
       <header id="header" className="alt">
         <span className="logo">
-          <img src="images/logo.svg" alt="" />
+          <img src="images/logo.svg" alt="site logo" />
         </span>
         <h1>Rohan Chougule</h1>
         <p>Passionate JavaScript Developer</p>
@@ -41,14 +41,14 @@ const Portfolio = () => {
               <header className="major">
                 <h2>Introduction</h2>
               </header>
-              <p>
+              <p style={{ fontFamily: "system-ui", fontSize: "25px" }}>
                 “I’m an innovative software engineer with 3+ years of experience
                 managing all aspects of the development process for small to
                 medium-sized companies.”
               </p>
             </div>
             <span className="image">
-              <img src="images/rohan.png" alt="" />
+              <img src="images/rohan.png" alt="profile logo" />
             </span>
           </div>
         </section>
@@ -61,43 +61,43 @@ const Portfolio = () => {
           <ul className="features">
             <li id="js">
               <span className="icon solid major style1">
-                <img src="images/js.png" width="130" />
+                <img src="images/js.png" alt="javascript" width="130" />
               </span>
               <h3>JavaScript</h3>
             </li>
             <li id="react">
               <span className="icon major style3">
-                <img src="images/react.png" width="130" />
+                <img src="images/react.png" alt="reactjs" width="130" />
               </span>
               <h3>ReactJs</h3>
             </li>
             <li id="node">
               <span className="icon major style5">
-                <img src="images/node.png" width="130" />
+                <img src="images/node.png" alt="nodejs" width="130" />
               </span>
               <h3>NodeJs</h3>
             </li>
             <li id="react native">
               <span className="icon solid major style1">
-                <img src="images/react.png" width="130" />
+                <img src="images/react.png" alt="react native" width="130" />
               </span>
               <h3>React Native</h3>
             </li>
             <li id="typescript">
               <span className="icon major style3">
-                <img src="images/typescript.png" width="130" />
+                <img src="images/typescript.png" alt="typescript" width="130" />
               </span>
               <h3>Typescript</h3>
             </li>
             <li id="html">
               <span className="icon major style5">
-                <img src="images/html.png" width="130" />
+                <img src="images/html.png" alt="html" width="130" />
               </span>
               <h3>HTML</h3>
             </li>
             <li id="github">
               <span className="icon solid major style1">
-                <img src="images/github.png" width="130" />
+                <img src="images/github.png" alt="github" width="130" />
               </span>
               <h3>GitHub</h3>
             </li>
@@ -188,34 +188,7 @@ const Portfolio = () => {
 
       {/* <!-- Footer --> */}
       <footer id="footer">
-        {/* <section>
-          <h2>Aliquam sed mauris</h2>
-          <p>
-            Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat
-            magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris.
-            Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas
-            velit, vitae tincidunt odio.
-          </p>
-          <ul className="actions">
-            <li>
-              <a href="generic.html" className="button">
-                Learn More
-              </a>
-            </li>
-          </ul>
-        </section> */}
         <section>
-          {/* <h2>Address & Contact</h2>
-          <dl className="alt">
-            <dt>Address</dt>
-            <dd>Karad-Dhebewadi Rd, Wing, Maharashtra 415122</dd>
-            <dt>Phone</dt>
-            <dd>(+91) 9511998983</dd>
-            <dt>Email</dt>
-            <dd>
-              <a href="#">rohanchougule3410@outlook.com</a>
-            </dd>
-          </dl> */}
           <ul className="icons">
             <li>
               <a href="#" className="icon brands fa-twitter alt">
