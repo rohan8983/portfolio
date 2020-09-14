@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "sourceMap": true, //We enable sourcemaps so we can debug TypeScript files in the browser.
+    "module": "commonjs", //We will be transpiling our code to standard nodejs style commonjs modules.
+    "target": "ES5", //We want our generated JavaScript to be compatible with ES5
+    "jsx": "react" //Finally for JSX code we want TypeScript to transpile into React.createElement calls.
+  },
+  "include": ["src"], //Our source code will be present in the src folder.
+  "compileOnSave": false, //And we disable TypeScript's compileOnSave as that will be handled by webpack.
+  "exclude": ["node_modules"]
+}
